@@ -1,0 +1,18 @@
+h1 {
+	font-family: Fira Sans !important;
+}
+
+.uk-navbar-container {
+  background: #fff !important;
+  color: black !important;
+}
+
+.uk-section-primary {
+	background: black !important;
+}
+
+
+img:hover {  
+  opacity: 1 !important;
+  transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1) !important;
+}

@@ -18,7 +18,7 @@ const Nav = () => (
             </li>
           </ul>
           <a className="uk-navbar-toggle uk-hidden@m" data-uk-navbar-toggle-icon href="#"></a>
-          <div className="uk-navbar-dropdown uk-hidden@m" data-uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+          <div className="uk-navbar-dropdown uk-hidden@m" data-uk-drop="boundary: !nav; pos: bottom-justify;">
             <ul className="uk-nav uk-navbar-dropdown-nav uk-list uk-list-divider">
               <CategoryQuery />
               <li className="uk-link-toggle">

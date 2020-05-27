@@ -16,7 +16,11 @@ const Nav = () => (
             <li className="uk-link-toggle">
               <Link to={`/contact`}>Контакт</Link>
             </li>
+            <li>
+              <a href="tel:+380996641000" className="uk-icon-link uk-icon" data-uk-icon="icon: receiver"></a>
+            </li>
           </ul>
+          <a href="tel:+380996641000" className="uk-icon-link uk-icon uk-hidden@m" data-uk-icon="icon: receiver"></a>
           <a className="uk-navbar-toggle uk-hidden@m" data-uk-navbar-toggle-icon href="#"></a>
           <div className="uk-navbar-dropdown uk-hidden@m" data-uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
             <ul className="uk-nav uk-navbar-dropdown-nav uk-list uk-list-divider">

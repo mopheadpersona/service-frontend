@@ -50,6 +50,9 @@ function SEO({ description, lang, meta, title }) {
         {
           src: "https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.js",
         },
+        {
+          src: "uikit/dist/js/uikit-icons.min.js"
+        }
       ]}
       meta={[
         {

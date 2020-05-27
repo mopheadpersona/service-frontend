@@ -6,7 +6,7 @@ import Image from "./imageAnanas"
 
 const Footer = ({ data }) => {
   return (
-    <div className="uk-section uk-section-primary uk-padding-remove-bottom">
+    <div className="uk-section uk-padding-remove-bottom footer">
       <div className="uk-container">
         <div className="uk-margin-medium-bottom">
           <div className="uk-child-width-auto@m uk-flex-middle uk-grid" data-uk-grid>

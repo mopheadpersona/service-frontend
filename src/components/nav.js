@@ -5,7 +5,7 @@ import Image from "./image"
 
 
 const Nav = () => {
-  const [articleTitle, setArticleTitle] = useState(null)
+  const [articleTitle, setArticleTitle] = useState("nothing")
 
   const data = useStaticQuery(graphql`
     query DeviceQuery {
@@ -23,7 +23,9 @@ const Nav = () => {
   const articles = data.allStrapiArticle.edges.map((edge, index) => edge.node)
   // [{title, id}, {title, id}]
   let id = 1
-  articles.filter((pair, i) => articleTitle == pair.title ? id = pair.strapiId : "not good")
+  const smallArticle = articleTitle.toLowerCase()
+  articles.filter((pair, i) => smallArticle == pair.title.toLowerCase() ? id = pair.strapiId : "not good")
+
 
   return (
     <div>
